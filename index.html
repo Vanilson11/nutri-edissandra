@@ -11,15 +11,17 @@
 <body>
     <!-- <header class="cabecalho flex"></header> -->
 
-    <main class="principal flex">
-        <section class="conteudo flex">
-            <div class="conteudo__perfil flex">
-                <img src="" alt="Foto de perfil da Edissandra">
-                <h3 class="conteudo__perfil__titulo">
-                    Edissandra Trindade
-                </h3>
+    <main class="principal flex" data-column>
+        <section class="conteudo flex" data-column>
+            <div class="conteudo__perfil flex" data-column>
+                <div class="perfil__apresentacao flex" data-column>
+                    <img src="assets/imgs/pexels-alex-andrews-861443.jpg" alt="Foto de perfil da Edissandra">
+                    <h3 class="conteudo__perfil__titulo">
+                        Edissandra Trindade
+                    </h3>
+                </div>
 
-                <div class="conteudo__texto">
+                <div class="conteudo__texto flex">
                     <p class="conteudo__paragrafo">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis nihil quod ad, dolorum, minus a sequi corporis quis dolor minima, omnis explicabo numquam eaque assumenda? Veritatis nemo sint excepturi reiciendis!
                     </p>
@@ -27,7 +29,7 @@
             </div>
 
             <div class="conteudo__navigation flex">
-                <nav class="navigation__links flex">
+                <nav class="navigation__links flex" data-column>
                     <a href="#" class="navigation__a">WhatsApp</a>
                     <a href="#" class="navigation__a">Instagram</a>
                     <a href="#" class="navigation__a">Tik Tok</a>
@@ -35,9 +37,15 @@
             </div>
         </section>
 
-        <aside class="folha">
-            <!--IMG DA FOLHA-->
+        <aside class="folha flex">
+            <img src="assets/Vector.svg" alt="Vector folha">
         </aside>
     </main>
+
+    <footer class="rodape flex">
+        <span class="rodape__texto">
+            Feito com 💜 por <a href="#" class="rodape__link">Vanilson Sousa</a>
+        </span>
+    </footer>
 </body>
 </html>

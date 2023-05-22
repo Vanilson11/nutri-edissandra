@@ -9,7 +9,7 @@
 }
 
 /* body{
-    
+ 
 } */
 
 .flex{
@@ -21,8 +21,11 @@
 }
 
 .principal{
+    /* background: #6AE2B2; */
+    background: rgba(0, 148, 115, 0.5);
     gap: 35px;
     width: 100%;
+    height: 1300px;
 }
 
 .conteudo{
@@ -82,8 +85,43 @@
 }
 
 .navigation__links{
+    justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
+}
+
+.navigation__links:nth-child(2){
+    background-color: aliceblue;
+}
+
+.navigation__a{
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background: #6EBD9D;
+    width: 200px;
+    height: 58px;
+    border-radius: 0px 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.navigation__a i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: #225e46;
+    width: 24px;
+    height: 24px;
+}
+
+.navigation__a a{
+    text-decoration: none;
+    font-weight: 540;
+    font-size: 18px;
+    line-height: 17px;
+    color: #225e46;
 }
 
 .folha{
@@ -94,7 +132,8 @@
 }
 
 .folha img{
-    width: 75%;
-    height: 450px;
+    width: 92%;
+    height: 550px;
     object-fit: cover;
+    filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.2));
 }
